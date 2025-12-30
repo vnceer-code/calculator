@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a calculator using Operators & Functions</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 calculator">
+                <div class="input">
+                    <input type="number" id="num">
+                </div>
+
+                <button type="button" class="btn btn-dark" id="add" onclick="addFun()">+</button>
+                <button type="button" class="btn btn-dark" onclick="subFun()">-</button>
+                <button type="button" class="btn btn-dark" onclick="divFun()">/</button>
+                <button type="button" class="btn btn-dark" onclick="mulFun()">*</button>
+                <button type="button" class="btn btn-dark" onclick="modFun()">%</button>
+                <button type="button" class="btn btn-dark" onclick="sqrFun()">^2</button>
+                <button type="button" class="btn btn-dark" onclick="cubFun()">^3</button>
+                <button type="button" class="btn btn-warning" onclick="resultFun()">=</button>
+                <button type="button" class="btn btn-info" onclick="clrFun()">C</button>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
